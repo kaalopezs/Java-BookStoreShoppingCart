@@ -54,3 +54,13 @@ public class ShoppingCart {
  }
 
 }
+
+public void deleteCartItem(int index){
+  try{
+    cartItems.remove("index");
+  }
+  catch(Exception e){
+   System.out.println("IndexOutOfBounds")
+  }
+  
+}
